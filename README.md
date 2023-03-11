@@ -61,6 +61,9 @@ To execute the tests, open a new terminal (do not close the terminal, running th
 
 Test results will be displayed in the terminal, along with detailed information about encountered problems. You can perform this operation as many times as it is necessary by re-running the above command.
 
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224506196-54b74a72-c9dc-4a18-ae69-6241ee4ff255.png)</kbd>
+
+
 ## Music Library RESTful API
 
 ??Live demo in Replit: [Music Library Web API](https://eventures-web-api.softuniorg.repl.co)
