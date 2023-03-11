@@ -56,17 +56,17 @@ After that Music Library could be accessed on http://localhost:3000 URL.
 ??Live demo in Replit: [Music Library Web API](https://eventures-web-api.softuniorg.repl.co)
 
 The following endpoints are supported:
- - `GET /api` - list all API endpoints 
- - `GET /api/events` - list all events
- - `GET /api/events/count` - returns events count
- - `GET /api/events/:id` - returns an event by given `id` 
- - `POST /api/events/create` - create a new event (post a JSON object in the request body, e.g. `{ "name": "Open Fest", place": "Borisova Garden", start": "2022-08-14T10:00:00.000Z", "end": "2022-08-15T18:00:00.000Z", "totalTickets": 500, "pricePerTicket": 15 }`)
- - `PUT /api/events/:id` - edit event by `id` (send a JSON object in the request body, holding all fields, e.g. `{ "name": "Open Fest", place": "Borisova Garden", start": "2022-08-14T10:00:00.000Z", "end": "2022-08-15T18:00:00.000Z", "totalTickets": 500, "pricePerTicket": 15 }`)
- - `PATCH /api/events/:id` - partially edit event by `id` (send a JSON object in the request body, holding the fields to modify, e.g. `{ place": "South Park Sofia", "pricePerTicket": 12 }`)
- - `DELETE /api/events/:id` - delete event by `id`
- - `GET /api/users` - list all users
- - `POST /api/users/login` - logs in an existing user (send a JSON object in the request body, holding all fields, e.g. `{"username": "username", "password": "pass123"}`)
- - `POST /api/users/register` - registers a new user (send a JSON object in the request body, holding all fields, e.g. `{"username": "username", "email": "user@example.com", "password": "pass123", "confirmPassword": "pass123", "firstName": "Test", "lastName": "User"}`)
+ - `GET /data/albums?sortBy=_createdOn%20desc` - list all albums
+ - `GET /data/albums/:id` - returns an album by given `id` 
+ - `POST /data/albums` - create a new album (post a JSON object in the request body, e.g. `{ "singer": "Taylor Swift", album": "Midnights", imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png", "release": "October 21, 2022", "label": "Republic", "sales": "1.58 million copies" }`)
+ - `PUT /data/albums/:id` - edit album by `id` (send a JSON object in the request body, holding all fields, e.g. `{ "singer": "Taylor Swift", album": "Midnights", imageUrl": "https://upload.wikimedia.org/wikipedia/en/9/9f/Midnights_-_Taylor_Swift.png", "release": "October 21, 2022", "label": "Republic", "sales": "1.58 million copies" }`)
+ - `DELETE /data/albums/:id` - delete album by `id`
+ - `POST /users/login` - logs in an existing user (send a JSON object in the request body, holding all fields, e.g. `{"username": "username", "password": "pass123"}`)
+ - `POST /users/register` - registers a new user (send a JSON object in the request body, holding all fields, e.g. `{"email": "user@example.com", "password": "pass123"}`)
+ - `GET /users/logout` - logs out and existing user
+ - `POST /data/likes` - add a like into album. The service expects a body with the following shape: `{albumId}`
+ - `GET /data/likes?where=albumId%3D%22{**albumId**}%22&distinct=_ownerId&count` - get total likes count for an album
+ - `GET :/data/likes?where=albumId%3D%22{**albumId**}%22%20and%20_ownerId%3D%22{**userId**}%22&count` - get the number of the likes for an album for specific user. {**albumId**} is the **id** of the desired album and {**userId**} is the **id** of the **currently logged-in user**.
 
 ## Screenshots
 
