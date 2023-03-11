@@ -69,9 +69,9 @@ The following endpoints are supported:
 
 ## Application starting
 
-📌 First you must install all dependencies included in the package.json file by typing npm install in a terminal.
-Then you must serve the angular application by typing ng serve in a terminal.
-After that Books Place could be accessed on http://localhost:4200 url.
+📌 First you must **install all dependencies** included in the **package.json** file by typing `npm install` in a **terminal**.
+Then you must **serve** the app by typing `ng serve` in a **terminal**.
+After that Music Library could be accessed on http://localhost:3000 URL.
 
 ## Screenshots
 
