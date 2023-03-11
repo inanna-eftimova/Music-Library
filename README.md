@@ -40,21 +40,16 @@ The **SPA** "**Music Library**" is an app for creating **catalog** of **albums**
 📌 Edit (only if user is owner) \
 📌 Delete (only if user is owner) 
 
-### Technology stack
 
-🛠 Angular 13 (version 13.2.5) \
-🛠 Firebase \
-🛠 HTML, CSS \
-🛠 Toastr \
-🛠 Bootstrap \
-🛠 Angular Animations 
-
-### Application starting
+### How to start the application?
 
 📌 First you must **install all dependencies** included in the **package.json** file by typing `npm install` in a **terminal**.
 Then you must **serve** the app by typing `ng serve` in a **terminal**.
 After that Music Library could be accessed on http://localhost:3000 URL.
 
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224491675-23012c21-eaf9-481a-ac48-66c5753a3a61.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224491696-ca268151-1076-45ea-a14f-926f1cffd4fd.png)</kbd>
 
 ## Music Library RESTful API
 
