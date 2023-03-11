@@ -22,6 +22,40 @@ The **SPA** "**Music Library**" is an app for creating **catalog** of **albums**
  - Delete Album: `/delete/:id`
 
 
+### Pages and permissions
+
+#### All users 🔓
+
+📌 Home \
+📌 Dashboard \
+📌 Details \
+📌 Login \
+📌 Register 
+
+#### Authenticated users 🔐
+
+📌 Dashboard\
+📌 Create \
+📌 Details \
+📌 Edit (only if user is owner) \
+📌 Delete (only if user is owner) 
+
+### Technology stack
+
+🛠 Angular 13 (version 13.2.5) \
+🛠 Firebase \
+🛠 HTML, CSS \
+🛠 Toastr \
+🛠 Bootstrap \
+🛠 Angular Animations 
+
+### Application starting
+
+📌 First you must **install all dependencies** included in the **package.json** file by typing `npm install` in a **terminal**.
+Then you must **serve** the app by typing `ng serve` in a **terminal**.
+After that Music Library could be accessed on http://localhost:3000 URL.
+
+
 ## Music Library RESTful API
 
 ??Live demo in Replit: [Music Library Web API](https://eventures-web-api.softuniorg.repl.co)
@@ -38,40 +72,6 @@ The following endpoints are supported:
  - `GET /api/users` - list all users
  - `POST /api/users/login` - logs in an existing user (send a JSON object in the request body, holding all fields, e.g. `{"username": "username", "password": "pass123"}`)
  - `POST /api/users/register` - registers a new user (send a JSON object in the request body, holding all fields, e.g. `{"username": "username", "email": "user@example.com", "password": "pass123", "confirmPassword": "pass123", "firstName": "Test", "lastName": "User"}`)
-
-
-## Pages and permissions
-
-### All users 🔓
-
-📌 Home \
-📌 Dashboard \
-📌 Details \
-📌 Login \
-📌 Register 
-
-### Authenticated users 🔐
-
-📌 Dashboard\
-📌 Create \
-📌 Details \
-📌 Edit (only if user is owner) \
-📌 Delete (only if user is owner) 
-
-## Technology stack
-
-🛠 Angular 13 (version 13.2.5) \
-🛠 Firebase \
-🛠 HTML, CSS \
-🛠 Toastr \
-🛠 Bootstrap \
-🛠 Angular Animations 
-
-## Application starting
-
-📌 First you must **install all dependencies** included in the **package.json** file by typing `npm install` in a **terminal**.
-Then you must **serve** the app by typing `ng serve` in a **terminal**.
-After that Music Library could be accessed on http://localhost:3000 URL.
 
 ## Screenshots
 
