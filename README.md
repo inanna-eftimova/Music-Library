@@ -51,6 +51,16 @@ After that Music Library could be accessed on http://localhost:3000 URL.
 
 <kbd>![image](https://user-images.githubusercontent.com/88777360/224491696-ca268151-1076-45ea-a14f-926f1cffd4fd.png)</kbd>
 
+### Executing the Tests
+
+Before running the test suite, make sure a web server is operational, and the application can be found at the root of its network address. To start the included dev-server, open a terminal in the folder containing package.json and execute: `npm run start`
+
+This is a one-time operation unless you terminate the server at any point. It can be restarted with the same command as above.
+To execute the tests, open a new terminal (do not close the terminal, running the web server instance) in the folder containing package.json and execute:
+`npm run test`
+
+Test results will be displayed in the terminal, along with detailed information about encountered problems. You can perform this operation as many times as it is necessary by re-running the above command.
+
 ## Music Library RESTful API
 
 ??Live demo in Replit: [Music Library Web API](https://eventures-web-api.softuniorg.repl.co)
