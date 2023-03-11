@@ -39,39 +39,6 @@ The following endpoints are supported:
  - `POST /api/users/login` - logs in an existing user (send a JSON object in the request body, holding all fields, e.g. `{"username": "username", "password": "pass123"}`)
  - `POST /api/users/register` - registers a new user (send a JSON object in the request body, holding all fields, e.g. `{"username": "username", "email": "user@example.com", "password": "pass123", "confirmPassword": "pass123", "firstName": "Test", "lastName": "User"}`)
 
-## Screenshots
-
-Screenshots from the **Music Library SPA**.
-
-
-### Music Library Web App
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224485979-4fa7fe7f-e940-4ed3-a078-aff2ad6b347d.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486045-7efa21ab-7147-4e33-a54d-dad7a790857f.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486061-53efa1ab-977c-45ac-81aa-d2abe76c90e7.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486076-1b0c2c3d-f284-41cd-b43c-21e9af59f685.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486087-524a47d9-fe46-4d90-8c59-c25eda7a52f2.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486116-5827ddfa-77cf-44e4-b3c1-ec390d5eba4a.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486143-fa7dec61-1786-4c73-900e-2bf6143e3b5c.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224485954-f29c6ba0-6ad1-4f94-bed3-5ad0c8f6cb1b.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486174-39100fa4-6fb8-4406-884b-f58f18569135.png)</kbd>
-
-<kbd>![image](https://user-images.githubusercontent.com/88777360/224486208-5296cf09-e097-4e8b-9681-48f59d6792f5.png)</kbd>
-
-### Eventures RESTful API
-
-<kbd>![image](https://user-images.githubusercontent.com/69080997/136526348-4a3c00d9-b4b0-40f8-81f9-9904785c0172.png)</kbd>
-<kbd>![image](https://user-images.githubusercontent.com/69080997/136526560-721e6f6a-b3d4-4f1e-9646-2e2052c4912b.png)</kbd>
-<kbd>![image](https://user-images.githubusercontent.com/69080997/136526724-01b3a68f-2909-4c4b-8799-97e6f19b6d87.png)</kbd>
-
 
 ## Pages and permissions
 
@@ -106,3 +73,35 @@ Screenshots from the **Music Library SPA**.
 Then you must serve the angular application by typing ng serve in a terminal.
 After that Books Place could be accessed on http://localhost:4200 url.
 
+## Screenshots
+
+Screenshots from the **Music Library SPA**.
+
+
+### Music Library Web App
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224485979-4fa7fe7f-e940-4ed3-a078-aff2ad6b347d.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486045-7efa21ab-7147-4e33-a54d-dad7a790857f.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486061-53efa1ab-977c-45ac-81aa-d2abe76c90e7.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486076-1b0c2c3d-f284-41cd-b43c-21e9af59f685.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486087-524a47d9-fe46-4d90-8c59-c25eda7a52f2.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486116-5827ddfa-77cf-44e4-b3c1-ec390d5eba4a.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486143-fa7dec61-1786-4c73-900e-2bf6143e3b5c.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224485954-f29c6ba0-6ad1-4f94-bed3-5ad0c8f6cb1b.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486174-39100fa4-6fb8-4406-884b-f58f18569135.png)</kbd>
+
+<kbd>![image](https://user-images.githubusercontent.com/88777360/224486208-5296cf09-e097-4e8b-9681-48f59d6792f5.png)</kbd>
+
+### Eventures RESTful API
+
+<kbd>![image](https://user-images.githubusercontent.com/69080997/136526348-4a3c00d9-b4b0-40f8-81f9-9904785c0172.png)</kbd>
+<kbd>![image](https://user-images.githubusercontent.com/69080997/136526560-721e6f6a-b3d4-4f1e-9646-2e2052c4912b.png)</kbd>
+<kbd>![image](https://user-images.githubusercontent.com/69080997/136526724-01b3a68f-2909-4c4b-8799-97e6f19b6d87.png)</kbd>
