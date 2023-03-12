@@ -1,7 +1,15 @@
+const express = require('express');
 const swaggerUi = require('swagger-ui-express');
-const swaggerDocument = require('./swagger.yalm');
+const swaggerDocument = require('./swagger.json');
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument)); 
+const app = express();
+const port = 3300;
+
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`);
+});
 
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined'
