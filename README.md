@@ -68,6 +68,8 @@ Test results will be displayed in the terminal, along with detailed information 
 
 ??Live demo in Replit: [Music Library Web API](https://eventures-web-api.softuniorg.repl.co)
 
+When the app is started locally, RESTful API documentation in avaible on: http://localhost:3300/api-docs
+
 The following endpoints are supported:
  - `GET /data/albums?sortBy=_createdOn%20desc` - list all albums
  - `GET /data/albums/:id` - returns an album by given `id` 
@@ -82,9 +84,6 @@ The following endpoints are supported:
  - `GET :/data/likes?where=albumId%3D%22{**albumId**}%22%20and%20_ownerId%3D%22{**userId**}%22&count` - get the number of the likes for an album for specific user. {**albumId**} is the **id** of the desired album and {**userId**} is the **id** of the **currently logged-in user**.
 
 ## Screenshots
-
-Screenshots from the **Music Library SPA**.
-
 
 ### Music Library Web App
 
