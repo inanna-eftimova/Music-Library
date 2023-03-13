@@ -26,8 +26,8 @@ The **SPA** "**Music Library**" is an app for creating **catalog** of **albums**
 
 📌 Dashboard `/dashboard` \
 📌 Add Album (Singer/Band + Album + Image URL + Release date + Label + Sales): `/create` \
-📌 Album Details: `/details/:id`
-📌 Edit Album (only if user is owner): (Singer/Band + Album + Image URL + Release date + Label + Sales): `/edit/:id`
+📌 Album Details: `/details/:id` \
+📌 Edit Album (only if user is owner): (Singer/Band + Album + Image URL + Release date + Label + Sales): `/edit/:id` \
 📌 Delete Album (only if user is owner): `/delete/:id`
 
 
