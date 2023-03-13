@@ -9,34 +9,24 @@
 
 The **SPA** "**Music Library**" is an app for creating **catalog** of **albums**.
 * Technologies: JavaScipt, HTML, CSS, Node.js, Express.js, Mocha, Chai
-* The app supports the following operations:
- - Home page: `/home`
- - Login page: `/login`
- - Register page: `/register`
- - Dashboard page: `/dashboard`
- - Add Album (Singer/Band + Album + Image URL + Release date + Label + Sales): `/create`
- - Album Details: `/details/:id`
- - Edit Album: (Singer/Band + Album + Image URL + Release date + Label + Sales): `/edit/:id`
- - Delete Album: `/delete/:id`
-
 
 ### Pages and permissions
 
 #### All users 🔓
 
-📌 Home \
-📌 Dashboard \
-📌 Details \
-📌 Login \
-📌 Register 
+📌 Home `/home` \
+📌 Dashboard `/dashboard` \
+📌 Details `/details/:id` \
+📌 Login `/login` \
+📌 Register `/register`
 
 #### Authenticated users 🔐
 
-📌 Dashboard\
-📌 Create \
-📌 Details \
-📌 Edit (only if user is owner) \
-📌 Delete (only if user is owner) 
+📌 Dashboard `/dashboard` \
+📌 Add Album (Singer/Band + Album + Image URL + Release date + Label + Sales): `/create` \
+📌 Album Details: `/details/:id` \
+📌 Edit Album (only if user is owner): (Singer/Band + Album + Image URL + Release date + Label + Sales): `/edit/:id` \
+📌 Delete Album (only if user is owner): `/delete/:id`
 
 
 ### How to start the application?
@@ -51,13 +41,13 @@ After that Music Library could be accessed on http://localhost:3000 URL.
 
 ### Executing the Tests
 
-Before running the test suite, make sure a web server is operational, and the application can be found at the root of its network address. To start the included dev-server, open a terminal in the folder containing package.json and execute: `npm run start`
+Before running the test suite, make sure a **web server** is **operational**, and the **application** can be found at the **root** of its **network address**. To **start** the included **dev-server**, open a **terminal** in the folder containing **package.json** and execute: `npm run start`
 
-This is a one-time operation unless you terminate the server at any point. It can be restarted with the same command as above.
-To execute the tests, open a new terminal (do not close the terminal, running the web server instance) in the folder containing package.json and execute:
+This is a one-time operation unless you **terminate** the **server** at any point. It can be **restarted** with the same command as above.
+To **execute** the **tests**, open a new terminal (do not close the terminal, running the web server instance) in the folder containing **package.json** and execute:
 `npm run test`
 
-Test results will be displayed in the terminal, along with detailed information about encountered problems. You can perform this operation as many times as it is necessary by re-running the above command.
+**Test results** will be displayed in the **terminal**, along with detailed information about encountered problems. You can perform this operation as many times as it is necessary by re-running the above command.
 
 <kbd>![image](https://user-images.githubusercontent.com/88777360/224506196-54b74a72-c9dc-4a18-ae69-6241ee4ff255.png)</kbd>
 
