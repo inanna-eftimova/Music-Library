@@ -7,8 +7,6 @@
 
 ## Music Library Web App
 
-??Live demo in Replit: [Music Library](https://eventures-web-app.softuniorg.repl.co)
-
 The **SPA** "**Music Library**" is an app for creating **catalog** of **albums**.
 * Technologies: JavaScipt, HTML, CSS, Node.js, Express.js, Mocha, Chai
 * The app supports the following operations:
@@ -65,8 +63,6 @@ Test results will be displayed in the terminal, along with detailed information 
 
 
 ## Music Library RESTful API
-
-??Live demo in Replit: [Music Library Web API](https://eventures-web-api.softuniorg.repl.co)
 
 When the app is started locally, RESTful API documentation in avaible on: http://localhost:3300/api-docs
 
